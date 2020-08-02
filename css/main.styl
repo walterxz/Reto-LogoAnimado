@@ -1,0 +1,71 @@
+logo-color=whitesmoke
+text-color=#404040
+.container
+    height 100vh  
+    background-color: logo-color
+    margin: auto
+    display: flex
+    justify-content: center
+    align-items: center
+.ball
+    position relative
+    height 100px
+    width 100px
+    border-radius: 50%
+    background-color: red
+    margin-right: 18px
+    .shine
+        position: absolute
+        height: 80px
+        width 80px
+        border-radius: 50%
+        background-color: white
+        opacity .2
+    .a
+        position: absolute
+        height: 70px
+        width 70px
+        left 10px
+        top 10px
+        border: 5px solid logo-color;
+        border-radius: 50%
+    .b
+        position absolute
+        height 10px
+        width 10px
+        left calc(40% - 8px)
+        top calc(40% - 8px)
+        border-radius: 50%
+        background-color: logo-color
+    .c
+        position: absolute
+        width 5px
+        height 35px
+        left calc(50%)
+        top calc(50%- 18px)
+        background-color: logo-color
+    .d
+        position: absolute
+        width 15px
+        height 5px
+        left calc(50%)
+        top calc(50%+15px)
+        background-color: logo-color
+    .e
+        position: absolute
+        width 20px
+        height 5px
+        left calc(50%+19px)
+        top calc(50%)
+        background-color: logo-color
+.text
+    color: text-color
+    font-family: "Segoe UI","Microsoft Sans Serif",sans-serif
+    .big
+        position relative
+        top 15px
+        font-weight: bold
+        font-size: 75px
+    .small
+        position relative
+        font-size: 30px
