@@ -1,14 +1,20 @@
 doctype html
 html
     include head.pug
+    .controls
+        .button(id="bt1") Repeat
+        .button(id="bt2") Bucle
     .container
         .ball
             .shine
-            .a
-            .b
-            .c
-            .d
-            .e
+            .sphere
+                .a
+                .b
+                .c
+                .d
+                .e
+            .ball-animation
         .text
             .big LG
             .small Life`s Good
+    script(src='./animate.js')
